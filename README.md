@@ -13,6 +13,16 @@ The pipeline of two experiments explained in the paper for identification of Par
 # 3D Convolutional Neural Network
 The network and the model for training the network based on the labels of terms in the PDEs are in the 3DCNN folder. For the prediction of unseen equations, the model should be trained for each term and unseen PDE separately. The processed data for this model with shape of (21,21,21) for each sample can be accessed from: https://drive.google.com/drive/folders/1hVcCHKJ-PWBbEWziGttiSqfruE3SK1Xy?usp=sharing .
 
+# Dependencies
+* Numpy
+* Pandas
+* Scipy
+* XGBoost
+* sklearn
+* seaborn
+* matplotlib
+* PyTorch
+
 # Authors
 This work was done by Kazem Meidani under supervision of Professor Amir Barati Farimani at MAIL at Carnegie Mellon University.
 
