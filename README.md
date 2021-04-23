@@ -5,7 +5,7 @@ This github repository is for our paper "Data-driven Identification of 2D Partia
 Data samples were generated using COMSOL Physics PDE solver using FEM, and then normalized and reformatted to samples of size (21,21,500). You can access the data for 8 PDEs considered in this work from: https://drive.google.com/drive/folders/1hVcCHKJ-PWBbEWziGttiSqfruE3SK1Xy?usp=sharing .
 
 # Physical Feature Extraction
-Features are visualized and extracted from raw data samples in FEATURE_EXTRACTION.ipynb.
+Features are visualized and extracted from raw data samples in FEATURE_EXTRACTION.ipynb. The extracted features are then saved in the folder FEATURES. The processed features also can be accessed from the drive: https://drive.google.com/drive/u/0/folders/1hVcCHKJ-PWBbEWziGttiSqfruE3SK1Xy .
 
 # Prediction Model
 The pipeline of two experiments explained in the paper for identification of Partial Differential Equations from the extracted features are available in EXPERIMENTS.ipynb
